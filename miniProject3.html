@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modul5-P3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="list">
+        <ul>
+            <li>halo</li>
+            <li>selamat</li>
+            <li>pagi</li>
+            <li>semua</li>
+            <li>aku</li>
+            <li>ytta</li>
+        </ul>
+    </div>
+
+    <section class="warnaGenap">
+        <label for="warnaGenap">Warna Elemen Genap:</label>
+        <select id="warnaGenap" onchange="Genap()">
+            <option value="hitam">Default</option>
+            <option value="merah">Merah</option>
+            <option value="biru">Biru</option>
+            <option value="kuning">Kuning</option>
+        </select>
+    </section>
+
+    <section class="warnaGanjil">
+        <label for="warnaGanjil">Warna Elemen Ganjil:</label>
+        <select id="warnaGanjil" onchange="Ganjil()">
+            <option value="hitam">Default</option>
+            <option value="merah">Merah</option>
+            <option value="biru">Biru</option>
+            <option value="kuning">Kuning</option>
+        </select>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
